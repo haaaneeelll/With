@@ -52,7 +52,19 @@
 [2018~2022 서울 부동산 전세 계약 데이터를 통해 찾아온 매물 중 적정 전세 제시]
    
 #### 2-1. 데이터 수집 
+- 부동산 거래 데이터 수집
+- 국토교통부 실거래가 공개시스템 (http://rtdown.molit.go.kr/)
 
+- 금융 feature
+주택담보대출금리 추가
+- 한국은행 경제 통계 시스템 (https://houstat.hf.go.kr/research/portal/theme/indexStatPage.do)
+
+- 인프라 feature
+주소에 가까운 스타벅스, 미쉐린음식점, 맥도날드, 대형마트, 백화점, 전통시장, 역세권을 추가 
+- 서울교통공사 서울특별시 역사마스터 정보(https://www.data.go.kr/data/15099367/fileData.do)
+- 서울시 대규모점포 인허가 정보 (http://data.seoul.go.kr/dataList/OA-16096/A/1/datasetView.do;jsessionid=42EF715F85DF1A875B6C3C0992A448FA.new_portal-svr-11)
+- 서울시 휴게음식점 인허가 정보 (http://data.seoul.go.kr/dataList/OA-16095/S/1/datasetView.do)
+- 서울시 강남구 유치원 정보 (http://data.seoul.go.kr/dataList/OA-20601/S/1/datasetView.do;jsessionㅌid=68D0A7FE460F8001FF878FA3ADAA203F.new_portal-svr-21)
 
 #### 2-2. 데이터 분석 및 군집
 - 전세값에 대한 인사이트를 얻고자 EDA와 MLP모델 빌드
