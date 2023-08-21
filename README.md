@@ -54,13 +54,11 @@
 #### 2-1. 데이터 수집 
 - 부동산 거래 데이터 수집
 - 국토교통부 실거래가 공개시스템 (http://rtdown.molit.go.kr/)
-
+<br>
 - 금융 feature
-주택담보대출금리 추가
 - 한국은행 경제 통계 시스템 (https://houstat.hf.go.kr/research/portal/theme/indexStatPage.do)
-
+<br>
 - 인프라 feature
-주소에 가까운 스타벅스, 미쉐린음식점, 맥도날드, 대형마트, 백화점, 전통시장, 역세권을 추가 
 - 서울교통공사 서울특별시 역사마스터 정보(https://www.data.go.kr/data/15099367/fileData.do)
 - 서울시 대규모점포 인허가 정보 (http://data.seoul.go.kr/dataList/OA-16096/A/1/datasetView.do;jsessionid=42EF715F85DF1A875B6C3C0992A448FA.new_portal-svr-11)
 - 서울시 휴게음식점 인허가 정보 (http://data.seoul.go.kr/dataList/OA-16095/S/1/datasetView.do)
