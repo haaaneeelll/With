@@ -70,12 +70,37 @@
 - 서울시 휴게음식점 인허가 정보 (http://data.seoul.go.kr/dataList/OA-16095/S/1/datasetView.do)
 - 서울시 강남구 유치원 정보 (http://data.seoul.go.kr/dataList/OA-20601/S/1/datasetView.do;jsessionㅌid=68D0A7FE460F8001FF878FA3ADAA203F.new_portal-svr-21)
 
-#### 2-2. 데이터 분석
-- 전세값에 대한 인사이트를 얻고자 EDA와 MLP모델 빌드
-- 부동산 예측을 위한 주요 모델 선택, 학습, 평가
-- 하이퍼 파라미터 튜닝
+#### 2-2 EDA & 데이터 시각화
+1. 데이터 전처리
+- 결측값 처리
+2. Feature Analysis & EDA
+- target, features 분석 및 시각화
+- features와 target간 관계 분석 및 시각화
+3. 시각화
+- 역세권 영향 시각화
+- 문화, 외식 인프라의 최근방 아파트 시각화
+- 정권교체에 따른 전세금 변화 시각화
+- 계절에 따른 전세금 변화 시각화
+- 헹정구역 TOP5 전세금 및 거래량 시각화
+- 강남구 TOP 100 시각화
 
-#### 2-3. 최종결과
+#### 2-3 모델링
+1. 모델링을 위한 전처리
+- 정규화(Johnsonsu, Normal, Log Normal, Boxcox 변환) 
+- 인코딩(LabelEncoding)
+- 스케일링(RobustScaling)
+2. 모델 선택
+- XGBoost
+- LightGBM
+- CatBoost
+3. 학습, 평가 및 하이퍼파라미터 튜닝
+- hyperopt
+4. 블렌딩
+--
+#### 2-4. 데이터 분석
+
+
+#### 2-5. 최종결과
 - 
 
 ## 3. 데이터 활용 계획
